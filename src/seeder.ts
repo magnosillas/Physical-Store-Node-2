@@ -1,7 +1,7 @@
 // src/seeder.ts
 
 import sequelize from './config/database';
-import Store from './models/store';
+import Store from './stores/models/model';
 import logger from './config/winston';
 import axios from 'axios';
 
